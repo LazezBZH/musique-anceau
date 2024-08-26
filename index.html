@@ -25,24 +25,25 @@
     <link rel="icon" href="./assets/svg/favicon_1.svg" media="(prefers-color-scheme: light)">
     <link rel="icon" href="./assets/svg/favicon_2.svg" media="(prefers-color-scheme: dark)">
 
-    <link rel="stylesheet" href="./assets/css/style.min.css">
-    <link rel="stylesheet" href="./assets/css/interact.min.css">
+    <link rel="preload" as="style" onload="this.onload=null;this.rel='stylesheet'" href="./assets/css/style.min.css">
+    <link rel="preload" as="style" onload="this.onload=null;this.rel='stylesheet'" href="./assets/css/interact.min.css">
+    <link rel="preload" href="./assets/svg/treble_key.svg" as="image" type="image/svg" />
 
 
 
     <!-- Models -->
-    <script src="/assets/js/models/Activity.js"></script>
-    <script src="/assets/js/models/Annex.js"></script>
-    <script src="/assets/js/models/Corpus.js"></script>
-    <script src="/assets/js/models/Note.js"></script>
-    <script src="/assets/js/models/Opus.js"></script>
-    <script src="/assets/js/models/Project.js"></script>
-    <script src="/assets/js/models/Vocable.js"></script>
+    <script src="/assets/js/models/Activity.js" async></script>
+    <script src="/assets/js/models/Annex.js" async></script>
+    <script src="/assets/js/models/Corpus.js" async></script>
+    <script src="/assets/js/models/Note.js" async></script>
+    <script src="/assets/js/models/Opus.js" async></script>
+    <script src="/assets/js/models/Project.js" async></script>
+    <script src="/assets/js/models/Vocable.js" async></script>
 
 
-    <script src="./assets/js/factories/ArticleList.js"></script>
+    <script src="./assets/js/factories/ArticleList.js" async></script>
         <!-- Factories -->
-    <script src="./assets/js/factories/ArticleFactory.js"></script>
+    <script src="./assets/js/factories/ArticleFactory.js" async></script>
 
     <!-- Main js -->
     <script src="./assets/js/main.min.js" type="module" defer></script>
