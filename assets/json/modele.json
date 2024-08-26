@@ -1,0 +1,31 @@
+{
+  "sequences": [
+    {
+      "levelId": "nombre = le niveau 6/5/4/3",
+      "sequenceId": "nombre = le numéro de la séquence",
+      "sequenceFullId": "nombre = levelId sequenceId /juste pour repérage",
+      "title": "Histoires naturelles",
+      "opus": [
+        "Le coucou au fond des bois, les tortues, le cygne, les fossiles",
+        "(le carnaval des animaux), Camille Saint-Saëns"
+      ],
+      "project": "La complainte du phoque en Alaska, Beau dommage",
+      "notions": [
+        "Les familles d'instruments (vents, cordes, percussions)",
+        "les tempi (lento, moderato, allegro)",
+        "un intervalle, un accord, un accord plaqué, un arpège"
+      ],
+      "comment": "À travers la figure de l'animal (personnification), comment la musique parle-t-elle de notre humanité&nbsp;?"
+    }
+  ],
+  "activities": [
+    {
+      "levelId": "nombre = le niveau 6/5/4/3",
+      "sequenceId": "nombre = le numéro de la séquence",
+      "sessionId": "nombre = le numéro de la session",
+      "activityId": "levelId  sequenceId sessionId n°activité dans la session /juste pour repérage",
+      "type": "project/opus/corpus/activity/note/annex/vocable",
+      "pas dans le json": "la suite reste comme le json d'origine"
+    }
+  ]
+}

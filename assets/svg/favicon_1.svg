@@ -1,0 +1,25 @@
+<svg width="64" height="64" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+
+    <g transform-origin="32 32" transform="rotate(13.8) scale(1.5)">
+        <g fill="none" stroke="#335599" stroke-width="1">
+            <path d="   
+            M-4 -10 v100 z 
+            M8 -10 v100 z 
+            M20 -10 v100 z 
+            M32 -10 v100 z 
+            M44 -10 v100 z
+            M56 -10 v100 z
+            M68 -10 v100 z" />
+        </g>
+
+        <path stroke="none" fill="#335599" d="
+            M-7 -10 h6 v40 h-6 z
+            M17 -10 h6 v40 h-6 z
+            M29 -10 h6 v40 h-6 z
+            M41 -10 h6 v40 h-6 z
+            M65 -10 h6 v40 h-6 z" />
+
+    </g>
+
+</svg>

@@ -1,0 +1,45 @@
+<svg viewBox="-6 0 130 12" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+
+   <defs>
+      <path id="leaf" d="M0 0 c-1 -2 -1 -3 1 -5 1 3 0.2 4 -1 5 z" />
+   </defs>
+
+   <g fill="none" stroke="#000" stroke-width="0.3" stroke-linecap="round">
+
+      <path d="M-4 12 c3 0 10 0 10 -4 a2 2 0 0 0 -4 0" transform-origin="-4 12" transform="rotate(-25)" />
+
+      <path d="M14 12 c10 -8 15 -4 25 -12" />
+      <path d="M27 12 c10 -8 25 5 45 -8" />
+      <path d="M0 12 l13.33 -4 c40 -12 40 16 80 -4 8 -4 12 -2 12 2" />
+   </g>
+
+   <g fill="#000" stroke="none">
+
+      <use href="#leaf" x="22" y="5" transform-origin="22 5" transform="rotate(40)">
+         <animateTransform attributeName="transform" attributeType="XML" type="rotate" values="40; 20; 40" dur="2.5s"
+            repeatCount="indefinite" />
+      </use>
+
+      <use href="#leaf" x="38" y="2" transform-origin="38 2" transform="rotate(70)">
+         <animateTransform attributeName="transform" attributeType="XML" type="rotate" values="70; 90; 70" dur="2.2s"
+            repeatCount="indefinite" />
+      </use>
+
+      <use href="#leaf" x="51" y="7.5" transform-origin="51 7.5" transform="rotate(50)">
+         <animateTransform attributeName="transform" attributeType="XML" type="rotate" values="70; 50; 70" dur="2.7s"
+            repeatCount="indefinite" />
+      </use>
+
+      <use href="#leaf" x="82" y="7.5" transform-origin="82 7.5" transform="rotate(10)">
+         <animateTransform attributeName="transform" attributeType="XML" type="rotate" values="10; 30; 10" dur="2.4s"
+            repeatCount="indefinite" />
+      </use>
+
+      <use href="#leaf" x="87" y="8" transform-origin="87 8" transform="rotate(90)">
+         <animateTransform attributeName="transform" attributeType="XML" type="rotate" values="80; 110; 80" dur="2.6s"
+            repeatCount="indefinite" />
+      </use>
+
+   </g>
+
+</svg>

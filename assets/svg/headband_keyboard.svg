@@ -1,0 +1,103 @@
+<svg viewBox="0 0 100 12" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+
+    <defs>
+
+        <path id="line" d="M-0.1 0 h0.2 v50 h-0.2 z" />
+
+        <g id="key">
+            <path d="M-1 -8 h2 v15 a0.5 0.5 0 0 1 -0.5 0.5 h-1 a 0.5 0.5 0 0 1 -0.5 -0.5 z" />
+            <use href="#line" x="0" y="0" />
+        </g>
+
+    </defs>
+
+    <g>
+        <use href="#key" x="8" y="-1" opacity="0.04">
+            <animateTransform attributeName="transform" attributeType="XML" type="translate"
+                values="0 -2; 0 1; 0 -2; 0 -2" dur="8s" begin="-5s" repeatCount="indefinite" />
+        </use>
+        <use href="#key" x="12" y="-3" opacity="0.08">
+            <animateTransform attributeName="transform" attributeType="XML" type="translate"
+                values="0 -2; 0 1; 0 -2; 0 -2" dur="8s" begin="-4.5s" repeatCount="indefinite" />
+        </use>
+
+        <use href="#line" x="16" y="0" opacity="0.12" />
+
+        <use href="#key" x="20" y="-1" opacity="0.16">
+            <animateTransform attributeName="transform" attributeType="XML" type="translate"
+                values="0 -2; 0 1; 0 -2; 0 -2" dur="8s" begin="-3.5s" repeatCount="indefinite" />
+        </use>
+        <use href="#key" x="24" y="1" opacity="0.20">
+            <animateTransform attributeName="transform" attributeType="XML" type="translate"
+                values="0 -2; 0 1; 0 -2; 0 -2" dur="8s" begin="-3s" repeatCount="indefinite" />
+        </use>
+
+        <use href="#line" x="28" y="0" opacity="0.24" />
+
+        <use href="#key" x="32" y="-3" opacity="0.28">
+            <animateTransform attributeName="transform" attributeType="XML" type="translate"
+                values="0 -2; 0 1; 0 -2; 0 -2" dur="8s" begin="-2s" repeatCount="indefinite" />
+        </use>
+        <use href="#key" x="36" y="3" opacity="0.32">
+            <animateTransform attributeName="transform" attributeType="XML" type="translate"
+                values="0 -2; 0 1; 0 -2; 0 -2" dur="8s" begin="-1.5s" repeatCount="indefinite" />
+        </use>
+        <use href="#key" x="40" y="-1" opacity="0.36">
+            <animateTransform attributeName="transform" attributeType="XML" type="translate"
+                values="0 -2; 0 1; 0 -2; 0 -2" dur="8s" begin="-1s" repeatCount="indefinite" />
+        </use>
+
+        <use href="#line" x="44" y="0" opacity="0.40" />
+
+        <use href="#key" x="48" y="-4" opacity="0.44">
+            <animateTransform attributeName="transform" attributeType="XML" type="translate"
+                values="0 -2; 0 1; 0 -2; 0 -2" dur="8s" begin="0s" repeatCount="indefinite" />
+        </use>
+        <use href="#key" x="52" y="-1" opacity="0.48">
+            <animateTransform attributeName="transform" attributeType="XML" type="translate"
+                values="0 -2; 0 1; 0 -2; 0 -2" dur="8s" begin="-7.5s" repeatCount="indefinite" />
+        </use>
+
+        <use href="#line" x="56" y="0" opacity="0.52" />
+
+        <use href="#key" x="60" y="1" opacity="0.56">
+            <animateTransform attributeName="transform" attributeType="XML" type="translate"
+                values="0 -2; 0 1; 0 -2; 0 -2" dur="8s" begin="-6.5s" repeatCount="indefinite" />
+        </use>
+        <use href="#key" x="64" y="-3" opacity="0.60">
+            <animateTransform attributeName="transform" attributeType="XML" type="translate"
+                values="0 -2; 0 1; 0 -2; 0 -2" dur="8s" begin="-6s" repeatCount="indefinite" />
+        </use>
+        <use href="#key" x="68" y="-1" opacity="0.64">
+            <animateTransform attributeName="transform" attributeType="XML" type="translate"
+                values="0 -2; 0 1; 0 -2; 0 -2" dur="8s" begin="-5.5s" repeatCount="indefinite" />
+        </use>
+
+        <use href="#line" x="72" y="0" opacity="0.68" />
+
+        <use href="#key" x="76" y="2" opacity="0.72">
+            <animateTransform attributeName="transform" attributeType="XML" type="translate"
+                values="0 -2; 0 1; 0 -2; 0 -2" dur="8s" begin="-4.5s" repeatCount="indefinite" />
+        </use>
+        <use href="#key" x="80" y="-1" opacity="0.76">
+            <animateTransform attributeName="transform" attributeType="XML" type="translate"
+                values="0 -2; 0 1; 0 -2; 0 -2" dur="8s" begin="-4s" repeatCount="indefinite" />
+        </use>
+
+        <use href="#line" x="84" y="0" opacity="0.80" />
+
+        <use href="#key" x="88" y="-3" opacity="0.84">
+            <animateTransform attributeName="transform" attributeType="XML" type="translate"
+                values="0 -2; 0 1; 0 -2; 0 -2" dur="8s" begin="-3s" repeatCount="indefinite" />
+        </use>
+        <use href="#key" x="92" y="0" opacity="0.88">
+            <animateTransform attributeName="transform" attributeType="XML" type="translate"
+                values="0 -2; 0 1; 0 -2; 0 -2" dur="8s" begin="-2.5s" repeatCount="indefinite" />
+        </use>
+        <use href="#key" x="96" y="-4" opacity="0.90">
+            <animateTransform attributeName="transform" attributeType="XML" type="translate"
+                values="0 -2; 0 1; 0 -2; 0 -2" dur="8s" begin="-2s" repeatCount="indefinite" />
+        </use>
+    </g>
+
+</svg>

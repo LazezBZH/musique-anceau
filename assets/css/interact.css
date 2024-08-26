@@ -1,0 +1,347 @@
+button {
+  cursor: pointer;
+  position: relative;
+  background: transparent;
+  font-family: montserrat;
+  font-weight: 500;
+  text-align: center;
+  padding-block: 0;
+  padding-inline: 0;
+  -webkit-tap-highlight-color: transparent;
+}
+
+/* -------------------------------------------------------- */
+
+.btn-level {
+  font-size: var(--fs-2);
+  font-variant: small-caps;
+  border: none;
+  color: var(--clr-B1);
+  transform: scale(0.8);
+  transition-property: color, transform;
+  transition-duration: 0.25s;
+  transition-timing-function: ease-in-out;
+}
+
+.btn-level:hover,
+.btn-level.selected {
+  transform: scale(1);
+}
+
+.btn-level.selected {
+  color: var(--clr-B2);
+}
+
+/* -------------------------------------------------------- */
+
+.btn-sequence {
+  width: 80%;
+  margin: 2vmin 0 2vmin 10%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 8fr;
+  align-items: center;
+  filter: blur(0.5vmin) opacity(0);
+  transform: translateX(50vw);
+  color: var(--clr-B4);
+  overflow: hidden;
+  border: none;
+  border-top: 1px solid transparent;
+  border-bottom: 1px solid transparent;
+  transition: border-top 0.4s, border-bottom 0.4s;
+}
+
+.btn-sequence::before,
+.btn-sequence::after {
+  pointer-events: none;
+  position: absolute;
+  content: "";
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition-property: left, opacity;
+  transition-duration: 0.6s;
+  transition-timing-function: ease-in-out;
+}
+
+.btn-sequence::before {
+  z-index: -2;
+  left: -20%;
+  background: url(../svg/headband_leafs.svg);
+  background-position: left center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.btn-sequence::after {
+  z-index: -1;
+  left: 12%;
+  background: url(../svg/headband_keyboard.svg);
+  background-position: right center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.btn-sequence > span {
+  padding: 2vmin 0;
+  background: transparent;
+  text-shadow: 1vmin 1vmin 0 var(--clr-02);
+  transition: color 0.4s;
+}
+
+.btn-sequence > span:nth-child(1) {
+  font-size: var(--fs-1);
+  font-variant: small-caps;
+  text-align: right;
+}
+
+.btn-sequence > span.bull {
+  color: var(--clr-A3);
+  font-size: var(--fs-3);
+}
+
+.btn-sequence > span.title {
+  text-align: left;
+  font-size: var(--fs-2);
+}
+
+/* -------------------------------------------------------- */
+
+.btn-session {
+  height: fit-content;
+  width: 100%;
+  margin: 1vmin 0;
+  padding: 1vmin 2vmin 1vmin 3vmin;
+  display: block;
+
+  font-size: var(--fs-5);
+  font-weight: bold;
+  border: none;
+  color: var(--clr-B4);
+  transition: color 0.4s;
+}
+
+.btn-session::before,
+.btn-session::after {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  content: "";
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%, 1vmin 50%);
+}
+
+.btn-session::before {
+  z-index: -1;
+  top: 0;
+  right: 0;
+  background-color: var(--clr-B2);
+  transition: background-color 0.4s;
+}
+
+.btn-session::after {
+  z-index: -2;
+  top: 1vmin;
+  right: -1vmin;
+  background: var(--clr-shadow);
+}
+
+.btn-session.in,
+.btn-session.out {
+  color: var(--clr-02);
+}
+
+.btn-session.in {
+  cursor: default;
+  pointer-events: none;
+}
+
+.btn-session.in::before {
+  background-color: var(--clr-C1);
+}
+
+.btn-session.out::before {
+  background-color: var(--clr-A3);
+}
+
+/* -------------------------------------------------------- */
+
+a,
+a:visited,
+a:active {
+  position: relative;
+  width: fit-content;
+  max-width: 100%;
+  color: var(--clr-02);
+  font-size: var(--fs-5);
+  font-weight: 600;
+  text-decoration: none;
+  text-align: center;
+  transition-property: color;
+  transition-duration: 0.4s;
+}
+
+a {
+  cursor: pointer;
+  display: inline-block;
+}
+
+a:hover {
+  color: var(--clr-C3);
+}
+
+/* -------------------------------------------------------- */
+
+a.yt,
+a.pdf,
+a.wiki {
+  min-width: 5vmin;
+  margin: 5vmin 0.5vmin 0.5vmin 0.5vmin;
+  padding: 0.5vmin;
+}
+
+a.yt::before {
+  background: url(../svg/icons/yt.svg);
+}
+a.pdf::before {
+  background: url(../svg/icons/pdf.svg);
+}
+a.wiki::before {
+  background: url(../svg/icons/wiki.svg);
+}
+
+a.yt::before,
+a.pdf::before,
+a.wiki::before {
+  position: absolute;
+  content: "";
+  /* height: 5vmin; */
+  height: max(5vmin, 30px);
+  width: max(5vmin, 30px);
+  left: 50%;
+  /* top: -5vmin; */
+  top: min(-5vmin, -30px);
+  transform: translate(-50%, 0);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+/* -------------------------------------------------------- */
+
+.scroll::-webkit-scrollbar {
+  width: 1vmin;
+}
+
+.scroll::-webkit-scrollbar-track,
+.scroll::-webkit-scrollbar-thumb {
+  border-radius: 0.5vmin;
+}
+
+.scroll::-webkit-scrollbar-button {
+  height: 1vmin;
+}
+
+.scroll::-webkit-scrollbar-track {
+  background: var(--clr-02);
+}
+
+.scroll::-webkit-scrollbar-thumb {
+  background: var(--clr-B2);
+  cursor: pointer;
+}
+
+/* -------------------------------------------------------- */
+
+@media screen and (max-aspect-ratio: 4/3) {
+  .btn-session {
+    height: 100%;
+    width: fit-content;
+    margin: 0 1vmin;
+    padding: 2vmin 2vmin 1vmin 2vmin;
+    display: inline;
+  }
+
+  .btn-session::before,
+  .btn-session::after {
+    clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 0, 50% 1vmin);
+  }
+}
+
+/* -------------------------------------------------------- */
+
+@media (pointer: fine) {
+  .btn-level:hover {
+    color: var(--clr-B3) !important;
+  }
+
+  /*  */
+
+  .btn-sequence:hover {
+    border-top: 1px solid var(--clr-02);
+    border-bottom: 1px solid var(--clr-02);
+  }
+
+  .btn-sequence:hover::before,
+  .btn-sequence:hover::after {
+    left: 0;
+    opacity: 0.3;
+  }
+
+  .btn-sequence:hover > span {
+    color: #fff;
+  }
+
+  .btn-sequence:hover > span.bull {
+    color: var(--clr-C1);
+    font-size: var(--fs-1);
+  }
+
+  /*  */
+
+  .btn-session:hover::before {
+    background-color: var(--clr-C2);
+  }
+
+  /*  */
+
+  a.yt,
+  a.pdf,
+  a.wiki {
+    filter: grayscale(100%);
+    transition: filter 0.4s, color 0.4s;
+  }
+
+  a.yt:hover,
+  a.pdf:hover,
+  a.wiki:hover {
+    filter: grayscale(0);
+  }
+
+  /*  */
+
+  .scroll::-webkit-scrollbar-thumb:hover {
+    background: var(--clr-B3);
+  }
+
+  /*  */
+}
+
+@media screen and (max-width: 800px) {
+  .btn-level {
+    font-size: var(--fs-0a);
+  }
+}
+@media screen and (max-width: 550px) {
+  .btn-level {
+    font-size: var(--fs-0b);
+  }
+}
+@media screen and (max-width: 500px) {
+  .btn-level {
+    font-size: var(--fs-0c);
+  }
+}
+@media screen and (max-width: 410px) {
+  .btn-level {
+    font-size: var(--fs-0d);
+  }
+}

@@ -1,0 +1,131 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta http-equiv="cache-control" content="no-cache, no-store, must-revalidate">
+
+    <!--  -->
+
+    <meta name="author" content="Miloud Ben Salah">
+    <meta name="category" content="Educational, music">
+    
+    <meta name="description" content="Hi ! I'm Miloud Ben Salah, teacher in Anceau de Garlande's college, the present website and contents are available for an easier access to my music's lessons. This content is copyrighted by Creative Commons licence - Non Commercial - No Derivatives 4.0 International (CC BY-NC-ND 4.0)">
+
+    <title>Musique - Collège Anceau de Garlande</title>
+
+    <link rel="canonical" href="https://musique-anceau.fr" />
+
+    <link rel="preload" href="./assets/ttf/BebasNeue-Regular.ttf" as="font" type="font/ttf" crossorigin />
+    <link rel="preload" href="./assets/ttf/Montserrat-VariableFont_wght.ttf" as="font" type="font/ttf" crossorigin />
+ 
+    <link rel="icon" href="./assets/svg/favicon_1.svg" media="(prefers-color-scheme: light)">
+    <link rel="icon" href="./assets/svg/favicon_2.svg" media="(prefers-color-scheme: dark)">
+
+    <link rel="stylesheet" href="./assets/css/style.min.css">
+    <link rel="stylesheet" href="./assets/css/interact.min.css">
+
+
+
+    <!-- Models -->
+    <script src="/assets/js/models/Activity.js"></script>
+    <script src="/assets/js/models/Annex.js"></script>
+    <script src="/assets/js/models/Corpus.js"></script>
+    <script src="/assets/js/models/Note.js"></script>
+    <script src="/assets/js/models/Opus.js"></script>
+    <script src="/assets/js/models/Project.js"></script>
+    <script src="/assets/js/models/Vocable.js"></script>
+
+
+    <script src="./assets/js/factories/ArticleList.js"></script>
+        <!-- Factories -->
+    <script src="./assets/js/factories/ArticleFactory.js"></script>
+
+    <!-- Main js -->
+    <script src="./assets/js/main.min.js" type="module" defer></script>
+
+</head>
+
+<body>
+
+    <picture>
+    </picture>
+
+    <main data-step="0">
+
+        <nav class="">
+            <button class="btn-sequence" data-ref="" data-key="1" aria-label="sequence 1"></button>
+            <button class="btn-sequence" data-ref="" data-key="2" aria-label="sequence 2"></button>
+            <button class="btn-sequence" data-ref="" data-key="3" aria-label="sequence 3"></button>
+            <button class="btn-sequence" data-ref="" data-key="4" aria-label="sequence 4"></button>
+            <button class="btn-sequence" data-ref="" data-key="5" aria-label="sequence 5"></button>
+            <button class="btn-sequence" data-ref="" data-key="6" aria-label="sequence 6"></button>
+        </nav>
+
+        <div class="invisible container">
+            <div class="title-container">
+                <div id="display-title"></div>
+                <div class="btn-open_container">
+                    <button class="btn-sequence_open hide" data-ref="" data-key="1" aria-label="sequence 1">Séq.1</button>
+                    <button class="btn-sequence_open hide" data-ref="" data-key="2" aria-label="sequence 2">Séq.2</button>
+                    <button class="btn-sequence_open hide" data-ref="" data-key="3" aria-label="sequence 3">Séq.3</button>
+                    <button class="btn-sequence_open hide" data-ref="" data-key="4" aria-label="sequence 4">Séq.4</button>
+                    <button class="btn-sequence_open hide" data-ref="" data-key="5" aria-label="sequence 5">Séq.5</button>
+                    <button class="btn-sequence_open hide" data-ref="" data-key="6" aria-label="sequence 6">Séq.6</button>
+                </div>
+                    
+                </div>
+
+            <div id="display-sequence"></div>
+
+            <div id="display-session" class="hide">
+
+                <nav>
+                    <button class="btn-session in  " data-ref="1" aria-label="seance 1">1</button>
+                    <button class="btn-session     " data-ref="2" aria-label="seance 2">2</button>
+                    <button class="btn-session     " data-ref="3" aria-label="seance 3">3</button>
+                    <button class="btn-session     " data-ref="4" aria-label="seance 4">4</button>
+                    <button class="btn-session     " data-ref="5" aria-label="seance 5">5</button>
+                    <button class="btn-session     " data-ref="6" aria-label="seance 6">6</button>
+                    <button class="btn-session     " data-ref="7" aria-label="seance 7">7</button>
+                    <button class="btn-session     " data-ref="8" aria-label="seance 8">8</button>
+                    <button class="btn-session hide" data-ref="9" aria-label="seance 9">9</button>
+                </nav>
+
+                <div class="display-sheet">
+                    <div id="display-sheet" class="scroll"></div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </main>
+
+    <header class="out">
+
+        <h1 id="displayer-infos">
+            <span>&nbsp;</span>
+            <span>&nbsp;</span>
+            <span>&nbsp;</span>
+        </h1>
+
+        <hr>
+
+        <nav>
+            <button class="btn-level" data-ref="6" aria-label="niveau sixième">Sixième</button>
+            <button class="btn-level" data-ref="5" aria-label="niveau cinquième">Cinquième</button>
+            <button class="btn-level" data-ref="4" aria-label="niveau quatrième">Quatrième</button>
+            <button class="btn-level" data-ref="3" aria-label="niveau troisième">Troisième</button>
+        </nav>
+
+        <hr>
+
+    </header>
+
+</body>
+
+</html>
