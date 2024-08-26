@@ -1,4 +1,4 @@
-//ensemble des médias de la page d'un photographe
+//ensemble des articles d'une session
 
 class ArticleList {
   constructor() {
