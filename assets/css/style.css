@@ -176,6 +176,58 @@ main {
   overflow: hidden;
 }
 
+main[data-step="0"] {
+  background-image: url("/assets/svg/1424478.svg");
+  background-size: 50%;
+  background-repeat: no-repeat;
+  background-position: center;
+  animation: bgappear 8s 1 linear;
+  -moz-animation: bgappear 8s 1 linear;
+  -webkit-animation: bgappear 8s 1 linear;
+}
+@keyframes bgappear {
+  0%,
+  15% {
+    background-size: 0%;
+  }
+  70% {
+    background-size: 40%;
+  }
+  100% {
+    background-size: 50%;
+  }
+}
+@-webkit-keyframes bgappear {
+  0%,
+  15% {
+    background-size: 0%;
+  }
+  70% {
+    background-size: 40%;
+  }
+  100% {
+    background-size: 50%;
+  }
+}
+@-moz-keyframes bgappear {
+  0%,
+  15% {
+    background-size: 0%;
+  }
+  70% {
+    background-size: 40%;
+  }
+  100% {
+    background-size: 50%;
+  }
+}
+/* main[data-step="0"] {
+  background-image: url("/assets/svg/1801287.svg");
+  background-size: 40%;
+  background-repeat: no-repeat;
+  background-position: center;
+} */
+
 main > nav,
 main > div {
   position: absolute;
