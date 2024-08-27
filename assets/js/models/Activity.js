@@ -15,7 +15,7 @@ class Activity {
       });
     }
     return `
-  <h2>Activité</h2>
+  <h3>Activité</h3>
   <p>${this.comment}</p>
   ${html}
     `;

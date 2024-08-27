@@ -265,7 +265,7 @@ main > div {
   text-shadow: 1vmin 1vmin 0 var(--clr-shadow);
 }
 
-#display-sequence h2 {
+#display-sequence h3 {
   color: var(--clr-B3);
   font-size: var(--fs-4);
   font-weight: 500;
@@ -357,7 +357,7 @@ article {
   margin-top: 1.5rem;
 }
 
-article h2 {
+article h3 {
   position: relative;
   width: fit-content;
   padding-right: 5vmin;
@@ -422,19 +422,19 @@ article.activity p {
 
 /*  */
 
-article.corpus h2,
-article.project h2 {
+article.corpus h3,
+article.project h3 {
   grid-column: 1 / 4;
 }
 
-article.document h2,
-article.opus h2 {
+article.document h3,
+article.opus h3 {
   grid-column: 1 / 3;
 }
 
 /*  */
 /* pseudo fieldset début */
-article.vocable .legend {
+article.vocable h3.legend {
   width: auto;
   font-variant: small-caps;
   font-weight: bold;
@@ -448,45 +448,47 @@ article.vocable .fieldset {
 }
 
 article.vocable .fieldset,
-article.vocable .fieldset .legend span,
+article.vocable .fieldset h3.legend span,
 article.vocable .fieldset-content {
   box-sizing: border-box;
 }
 
 article.vocable .fieldset-content {
-  padding: 0 0.75rem 0.75rem 0;
+  padding: 0.5rem 0.75rem 0.75rem 0;
 }
 
-article.vocable .fieldset .legend {
-  position: relative;
-  left: -0.2rem;
+article.vocable .fieldset h3.legend {
+  position: absolute;
+  left: 1rem;
   top: 0%;
   transform: translateY(-50%);
   display: flex;
   padding: 0 0 0 0.126rem;
   box-sizing: content-box;
+  border-bottom: none;
+  color: var(--clr-C4);
 }
 
-article.vocable .fieldset .legend span {
+article.vocable .fieldset h3.legend span {
   background-color: var(--clr-04);
   display: inline-block;
   position: relative;
   z-index: 3;
   padding: 0;
 }
-article.vocable .fieldset .legend span.field-left {
+article.vocable .fieldset h3.legend span.field-left {
   width: 20px;
-  height: 100%;
+  height: 1rem;
   background: linear-gradient(to right, transparent, var(--clr-04));
   padding: 0;
 }
-article.vocable .fieldset .legend span.field-right {
+article.vocable .fieldset h3.legend span.field-right {
   width: 20px;
-  height: 100%;
+  height: 1rem;
   background: linear-gradient(to left, transparent, var(--clr-04));
   padding: 0;
 }
-article.vocable .fieldset .legend span.field-center {
+article.vocable .fieldset h3.legend span.field-center {
   padding: 0 1rem;
 }
 /* pseudo fieldset fin */
@@ -550,7 +552,7 @@ article.vocable p {
     justify-content: space-between;
     margin: auto;
   }
-  #display-sheet h2 {
+  #display-sheet h3 {
     position: absolute;
     left: -10%;
   }
@@ -568,10 +570,15 @@ article.vocable p {
   }
   #display-sequence > div {
     text-align: left;
+    padding: 0 0.5rem;
   }
-  #display-sequence h2 {
+  #display-sequence > div > div:first-child {
+    margin: -5vmin 0 1vmin 0;
+  }
+
+  #display-sequence h3 {
     font-size: var(--fs-2a);
-    padding-left: 1rem;
+    text-align: right;
   }
   #display-sequence p.comment {
     border-left: none;
@@ -599,7 +606,7 @@ article.vocable p {
     border-top: 0.8vmin dotted var(--clr-A2);
   }
 
-  #display-sheet h2 {
+  #display-sheet h3 {
     font-size: var(--fs-2a);
   }
   #display-sequence .comment {
@@ -613,7 +620,7 @@ article.vocable p {
   #display-sheet a {
     font-size: var(--fs-2b);
   }
-  #display-sheet h2 {
+  #display-sheet h3 {
     font-size: var(--fs-0d);
   }
   #display-session {
@@ -621,7 +628,6 @@ article.vocable p {
     margin: 0 auto;
   }
 }
-
 @media screen and (max-width: 450px) {
   header > h1 {
     font-size: var(--fs-0b);
@@ -635,9 +641,10 @@ article.vocable p {
     font-size: var(--fs-0d);
   }
   #display-sequence {
-    font-size: var(--fs-2a);
+    font-size: var(--fs-2b);
+    padding-bottom: 0.5rem;
   }
-  #display-sequence h2 {
+  #display-sequence h3 {
     font-size: var(--fs-2);
   }
 }

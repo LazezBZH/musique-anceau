@@ -18,7 +18,7 @@ class Corpus {
     });
 
     return `
-    <h2>Auditions comparées</h2>
+    <h3>Auditions comparées</h3>
     ${urls}
     ${comments}
     `;

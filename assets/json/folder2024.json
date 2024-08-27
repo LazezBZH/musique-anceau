@@ -167,7 +167,7 @@
         "N'kapalema, Ballaké Sissoko et Vincent Ségal",
         "ensemble de djembé"
       ],
-      "project": "[à définir]",
+
       "notions": ["une kora", "un djembé", "cycle et carrure"],
       "comment": "Afrique, berceau de l'humanité et terre de traditions. La transmission par l'oralité y règne, la diversité des cultures et des traditions qui se mélangent ets'évanouit dans le voile de la nuit des temps."
     },
@@ -194,7 +194,7 @@
         "4ème et 5ème mouvements (Symphonie fantastique), Hector Berlioz"
       ],
       "project": "",
-      "notions": [""],
+      "notions": [],
       "comment": ""
     },
     {
@@ -208,7 +208,7 @@
         "Choral du Veilleur, Jean Sébastien Bach"
       ],
       "project": "",
-      "notions": [""],
+      "notions": [],
       "comment": "BACH et la musique religieuse"
     },
     {
@@ -221,7 +221,7 @@
         "Bachianas Brasileiras N° 5 - I. Aria, Heitor Villa-Lobos"
       ],
       "project": "",
-      "notions": [""],
+      "notions": [],
       "comment": "musique savante au Brésil avec Heitor Villa-Lobos"
     },
     {
@@ -233,7 +233,7 @@
         "Marche pour la cérémonie des turcs (le bourgeois gentilhomme), Jean-Baptiste Lully"
       ],
       "project": "",
-      "notions": [""],
+      "notions": [],
       "comment": ""
     },
     {
@@ -246,7 +246,7 @@
         "... (le voyage de Chihiro), Joe Hisaishi"
       ],
       "project": "Sakura, chant traditionnel du Japon",
-      "notions": [""],
+      "notions": [],
       "comment": ""
     },
     {
@@ -260,7 +260,7 @@
         "City life, Steve Reich"
       ],
       "project": "",
-      "notions": [""],
+      "notions": [],
       "comment": ""
     },
     {
@@ -273,7 +273,7 @@
         "Dies Irae du War Requiem, Benjamin Britten"
       ],
       "project": "Le chant des partisans, Anna Marly",
-      "notions": [""],
+      "notions": [],
       "comment": ""
     },
     {
@@ -281,7 +281,7 @@
       "sequenceId": 3,
       "sequenceFullId": 33,
       "title": "La musique fait son cinéma",
-      "opus": [""],
+      "opus": [],
       "project": "",
       "notions": ["", "", "son in / off / out"],
       "comment": "Quel apport la musique donne-t-elle à un film ?"
@@ -291,7 +291,7 @@
       "sequenceId": 4,
       "sequenceFullId": 34,
       "title": "(R)évolutions dans l'écoute de la musique depuis 150 ans",
-      "opus": [""],
+      "opus": [],
       "project": "",
       "notions": [
         "samples",
@@ -305,7 +305,7 @@
       "sequenceId": 5,
       "sequenceFullId": 35,
       "title": "Du gospel aux musiques actuelles",
-      "opus": [""],
+      "opus": [],
       "project": "",
       "notions": ["", "l'after beat", "la carrure régulière"],
       "comment": ""

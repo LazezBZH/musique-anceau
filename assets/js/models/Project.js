@@ -15,7 +15,7 @@ class Project {
     });
     return `
     <article class="project">
-  <h2>projet musical</h2>
+  <h3>projet musical</h3>
   <div class="row">
    <a href='${this.file.url}' class="yt" target='_blank' > ${this.file.name} </a>
    

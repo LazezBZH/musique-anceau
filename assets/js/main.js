@@ -4,6 +4,14 @@
 
 const jsonData = {};
 
+// fetch("../assets/json/folder2024.json")
+//   .then((req) => req.json())
+//   .then((res) =>
+//     Object.entries(res).forEach(
+//       (element) => (jsonData[element[0]] = element[1])
+//     )
+//   );
+
 fetch("../assets/json/folder2024.min.json")
   .then((req) => req.json())
   .then((res) =>
@@ -360,26 +368,52 @@ function engraveSequence(sequenceContent, key, maxSequences) {
   });
 
   let opusHtml = "";
-  sequenceContent[0].opus.forEach((opus) => (opusHtml += `<p>${opus}</p>`));
-  let h2Html = "";
-  switch (sequenceContent[0].opus.length) {
-    case 1:
-      h2Html = "Œuvre";
-      break;
-    default:
-      h2Html = "Œuvres";
+
+  let h3Html = "";
+
+  let oeuvresHtml = "";
+  let projectHtml = "";
+  let notionsHtml = "";
+  let commentHtml = "";
+
+  if (sequenceContent[0].opus && sequenceContent[0].opus.length > 0) {
+    switch (sequenceContent[0].opus.length) {
+      case 1:
+        h3Html = "Œuvre";
+        break;
+      default:
+        h3Html = "Œuvres";
+    }
+    sequenceContent[0].opus.forEach((opus) => (opusHtml += `<p>${opus}</p>`));
+    oeuvresHtml = `
+      <div><h3>${h3Html}</h3>${opusHtml}</div>
+    `;
+  }
+  if (sequenceContent[0].project) {
+    projectHtml = `
+      <div><h3>Projet musical</h3><p>${sequenceContent[0].project}</p></div>
+    `;
+  }
+  if (sequenceContent[0].notions) {
+    notionsHtml = `
+      <div><h3>Notions et vocabulaire</h3><p>${sequenceContent[0].notions.join(
+        ", "
+      )}</p></div>
+        </div>
+    `;
+  }
+  if (sequenceContent[0].comment) {
+    commentHtml = `
+      <p class="comment">${sequenceContent[0].comment}</p>
+    `;
   }
   let content = `
         <div>
-            <div><h2>${h2Html}</h2>${opusHtml}</div>
-            <div><h2>Projet musical</h2><p>${
-              sequenceContent[0].project
-            }</p></div>
-            <div><h2>Notions et vocabulaire</h2><p>${sequenceContent[0].notions.join(
-              ", "
-            )}</p></div>
-        </div>
-        <p class="comment">${sequenceContent[0].comment}</p>`;
+            ${oeuvresHtml}
+            ${projectHtml}
+            ${notionsHtml}
+         </div>   
+        ${commentHtml}`;
 
   displayer.title.innerHTML = `<span>Séquence n°${key}&emsp;-&emsp;</span>${sequenceContent[0].title}`;
   displayer.sequence.innerHTML = content;

@@ -10,11 +10,19 @@
 
 ## Changements js
 
-- Les buttons séquence et session vont se générer automatiquement en nombre d'après le nombres d'entrées dans le json sans avoir besoin de settings
+- Les buttons séquence et session vont se générer automatiquement en nombre d'après le nombre d'entrées dans le json sans avoir besoin de settings
 
 - Utilisation de factory pour générer les activités suivant leur type
 
+- Ajout de navigation d'une session à un autre dans les séquences
+
+- Œuvre ou Œuvres selon nombre
+
+- En partie haute ce qui n'est pas rempli dans le json n'apparait pas dans le html (oeuvres, projet musicaln notions, comments)
+
 ## Modifications pour accessibilité
+
+- Niveaux de titres h1, h2, h3
 
 - Certains contrasts étaient faibles, modif de certaines couleurs pour avoir un contrast suffisant
 
@@ -23,6 +31,8 @@
 ## Le sémantique BORDEL!
 
 - Oui c'est joli l'effet de fieldset mais un fieldset est pour un formulaire donc si on veut le même effet on le code en CSS (d'autant plus facile que le fond est uni, s'il y avait eu une image de fond j'aurais fait différemment)
+
+- <cite> enlevés également et même visuel codé en CSS car ça n'était pas des citations
 
 ## Screenshots
 

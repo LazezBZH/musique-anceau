@@ -14,7 +14,7 @@ class Opus {
     });
     return `
     <article class="opus">
-   <h2>Audition</h2>
+   <h3>Audition</h3>
    <div class="row">
     <a href='${this.file.url}' class="yt" target='_blank' > ${this.file.name} </a>
     </div>
