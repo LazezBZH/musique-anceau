@@ -288,7 +288,7 @@
       "title": "La musique fait son cinéma",
       "opus": [],
       "project": "",
-      "notions": ["", "", "son in / off / out"],
+      "notions": ["son in / off / out"],
       "comment": "Quel apport la musique donne-t-elle à un film ?"
     },
     {
@@ -910,7 +910,7 @@
       "activityId": 6122,
       "type": "opus",
       "file": {
-        "name": "L'apprenti sorcier, P. Dukas'",
+        "name": "L'apprenti sorcier, P. Dukas",
         "url": "https://www.youtube.com/watch?v=71fZhMXlGT4"
       },
       "comment": [
