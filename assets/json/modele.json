@@ -25,7 +25,7 @@
       "sessionId": "nombre = le numéro de la session",
       "activityId": "levelId  sequenceId sessionId n°activité dans la session /juste pour repérage",
       "type": "project/opus/corpus/activity/note/annex/vocable",
-      "pas dans le json": "la suite reste comme le json d'origine"
+      "le reste": "la suite reste comme le json d'origine"
     }
   ]
 }

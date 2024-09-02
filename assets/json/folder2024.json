@@ -167,7 +167,7 @@
         "N'kapalema, Ballaké Sissoko et Vincent Ségal",
         "ensemble de djembé"
       ],
-
+      "project": "",
       "notions": ["une kora", "un djembé", "cycle et carrure"],
       "comment": "Afrique, berceau de l'humanité et terre de traditions. La transmission par l'oralité y règne, la diversité des cultures et des traditions qui se mélangent ets'évanouit dans le voile de la nuit des temps."
     },
@@ -180,9 +180,9 @@
         "2ème mouvement (Sonate pour flûte et piano), Francis Poulenc",
         "1er mouvement (Trio pour violon, violoncelle et piano), Franz Schubert"
       ],
-      "project": "[à définir]",
+      "project": "",
       "notions": ["une sonate, un trio, un quatuor"],
-      "comment": "[à définir]"
+      "comment": ""
     },
     {
       "levelId": 4,
@@ -193,15 +193,20 @@
         "L'apprenti sorcier, Paul Dukas",
         "4ème et 5ème mouvements (Symphonie fantastique), Hector Berlioz"
       ],
-      "project": "",
-      "notions": [],
-      "comment": ""
+      "project": "Hijo de la luna, Mecano",
+      "notions": [
+        "le poème symphonique",
+        "un thème, un motif",
+        "la variation d'un thème",
+        " l'orchestration, les timbres"
+      ],
+      "comment": "Comment le XIXe siècle a développé ce goût du fantastique dans la musique&nbsp;? Quelles formes vont être privilégiées&nbsp;?"
     },
     {
       "levelId": 4,
       "sequenceId": 2,
       "sequenceFullId": 42,
-      "title": "[titre de séquence à déterminer]",
+      "title": "S'il y a quelqu'un qui doit beaucoup à Bach c'est bien Dieu. (E. Cioran)",
       "opus": [
         "Kommt, ihr Töchter (Passion selon St Matthieu), Jean Sébastien Bach",
         "Jauchzet, frohlocket ! (Oratorio de Noël), Jean Sébastien Bach",
@@ -209,19 +214,19 @@
       ],
       "project": "",
       "notions": [],
-      "comment": "BACH et la musique religieuse"
+      "comment": "Bach et la musique religieuse"
     },
     {
       "levelId": 4,
       "sequenceId": 3,
       "sequenceFullId": 43,
-      "title": "[titre de séquence à déterminer]",
+      "title": "De Leipzig à Rio de Janeiro : un lien musical transatlantique",
       "opus": [
         "Bachianas Brasileiras N° 2 - IV. Tocata, Heitor Villa-Lobos",
         "Bachianas Brasileiras N° 5 - I. Aria, Heitor Villa-Lobos"
       ],
       "project": "",
-      "notions": [],
+      "notions": [""],
       "comment": "musique savante au Brésil avec Heitor Villa-Lobos"
     },
     {
@@ -733,6 +738,298 @@
         "Première écoute complète.",
         "Repérage des instruments et voix."
       ]
+    },
+    {
+      "levelId": "5",
+      "sequenceId": "1",
+      "sessionId": "1",
+      "activityId": "5111",
+      "type": "project",
+      "file": {
+        "name": "J'ai fait un rêve, Miel",
+        "url": "https://www.youtube.com/watch?v=kXWpHTyfHVo"
+      },
+      "score": "chant_51.pdf",
+      "comment": [
+        "Présentation complète du chant.",
+        "Questions :",
+        "<span class='cite'>En combien de phrases musicales se décompose ce chant&nbsp;?</span>",
+        "<span class='cite'>Comment peut-on décrire chaque phrase musicale&nbsp;?</span>",
+        "Apprentissage de la mélodie (à 1 voix)."
+      ]
+    },
+    {
+      "levelId": "5",
+      "sequenceId": "1",
+      "sessionId": "2",
+      "activityId": "5121",
+      "type": "project",
+      "file": {
+        "name": "J'ai fait un rêve, Miel",
+        "url": "https://www.youtube.com/watch?v=kXWpHTyfHVo"
+      },
+      "score": "chant_51.pdf",
+      "comment": [
+        "Révision de la mélodie (à 1 voix).",
+        "Apprentissage en canon à 2 voix (élèves / enseignant)."
+      ]
+    },
+    {
+      "levelId": "5",
+      "sequenceId": "1",
+      "sessionId": "3",
+      "activityId": "5131",
+      "type": "project",
+      "file": {
+        "name": "J'ai fait un rêve, Miel",
+        "url": "https://www.youtube.com/watch?v=kXWpHTyfHVo"
+      },
+      "score": "chant_51.pdf",
+      "comment": [
+        "Révision de la mélodie (à 1 voix).",
+        "Apprentissage en canon à 2 voix puis 3 voix (3 groupes-élèves)."
+      ]
+    },
+    {
+      "levelId": "5",
+      "sequenceId": "1",
+      "sessionId": "4",
+      "activityId": "5141",
+      "type": "project",
+      "file": {
+        "name": "J'ai fait un rêve, Miel",
+        "url": "https://www.youtube.com/watch?v=kXWpHTyfHVo"
+      },
+      "score": "chant_51.pdf",
+      "comment": [
+        "Révision de la mélodie (en canon).",
+        "Travail spécifique sur la 2ème phrase musicale (les aigus)."
+      ]
+    },
+    {
+      "levelId": "5",
+      "sequenceId": "1",
+      "sessionId": "5",
+      "activityId": "5151",
+      "type": "project",
+      "file": {
+        "name": "J'ai fait un rêve, Miel",
+        "url": "https://www.youtube.com/watch?v=kXWpHTyfHVo"
+      },
+      "score": "chant_51.pdf",
+      "comment": [
+        "Révision de la mélodie (en canon).",
+        "Travail spécifique sur la synchronicité entre les voix."
+      ]
+    },
+
+    {
+      "levelId": 4,
+      "sequenceId": 1,
+      "sessionId": 1,
+      "activityId": 6111,
+      "type": "project",
+      "file": {
+        "name": "Hijo de la luna, Mecano",
+        "url": "https://www.youtube.com/watch?v=LdujgYYacTE"
+      },
+      "score": "chant_41.pdf",
+      "comment": [
+        "Présentation complète du chant.",
+        "Questions :",
+        "<span class='cite'>Qui sont les protagonistes&nbsp;?</span>",
+        "<span class='cite'>Que leur arrive-t-il&nbsp;?</span>",
+        "<span class='cite'>Entre légende et fable, dans quel contexte culturel et géographique peut-on comprendre cette histoire&nbsp;?</span>",
+        "Apprentissage des premier et deuxième couplets."
+      ]
+    },
+    {
+      "levelId": 4,
+      "sequenceId": 1,
+      "sessionId": 1,
+      "activityId": 6112,
+      "type": "opus",
+      "file": {
+        "name": "La danse macabre, C. Saint-Saëns",
+        "url": "https://www.youtube.com/watch?v=71fZhMXlGT4"
+      },
+      "comment": [
+        "Lecture du poème d'Henri Cazalis",
+        "Questions :",
+        "<span class='cite'>Quels éléments dans le poème peuvent nous faire penser à des sons&nbsp;?</span>",
+        "<span class='cite'>Comment peut-on traduire ces éléments en musique (avec des sons issus de l'orchestre&nbsp;?</span>",
+        "Première écoute (début de l'oeuvre).",
+        "Questions :",
+        "<span class='cite'>Ce que nous avions imaginé correspond-t-il aux choix musicaux effectués par Camille Saint Saëns&nbsp;?</span>"
+      ]
+    },
+    {
+      "levelId": 4,
+      "sequenceId": 1,
+      "sessionId": 1,
+      "activityId": 6113,
+      "type": "annex",
+      "file": [
+        {
+          "name": "Camille Saint Saëns",
+          "type": "wiki",
+          "url": "https://fr.wikipedia.org/wiki/Camille_Saint-Saëns"
+        },
+        {
+          "name": "La danse macabre",
+          "type": "wiki",
+          "url": "https://fr.wikipedia.org/wiki/Danse_macabre_(Saint-Saëns)"
+        }
+      ]
+    },
+    {
+      "levelId": 4,
+      "sequenceId": 1,
+      "sessionId": 2,
+      "activityId": 6121,
+      "type": "project",
+      "file": {
+        "name": "Hijo de la luna, Mecano",
+        "url": "https://www.youtube.com/watch?v=LdujgYYacTE"
+      },
+      "score": "chant_41.pdf",
+      "comment": [
+        "Révision des 1er et 2ème couplets.",
+        "Apprentissage du Refrain.",
+        "Questions :",
+        "<span class='cite'>Quel instrument vient ponctuer la fin du refrain dans la chanson originale&nbsp;?</span>",
+        "<span class='cite'>Que peut-on repérer lorsque l'on isole la partie de piano du refrain&nbsp;?</span>",
+        "Réflexion :",
+        "<span class='cite'>Présence de castagnettes, utilisation de la gamme andalouse ... Des références à la musique hispanique.</span>"
+      ]
+    },
+    {
+      "levelId": 4,
+      "sequenceId": 1,
+      "sessionId": 2,
+      "activityId": 6122,
+      "type": "opus",
+      "file": {
+        "name": "L'apprenti sorcier, P. Dukas'",
+        "url": "https://www.youtube.com/watch?v=71fZhMXlGT4"
+      },
+      "comment": [
+        "Lecture du résumé ayant servi de source d'inspiration à Paul Dukas.",
+        "Questions :",
+        "<span class='cite'>Quels sont les protagonistes&nbsp;?</span>",
+        "<span class='cite'>Quels éléments et personnages ont un rôle crucial dans l'histoire&nbsp;?</span>",
+        "Première écoute des thèmes principaux (isolés).",
+        "<span class='cite'>Thème de la formule magique</span>",
+        "<span class='cite'>Thème du balai</span>",
+        "<span class='cite'>Thème de l'apprenti</span>",
+        "Ecoute du début de l'oeuvre",
+        "Réflexion :",
+        "<span class='cite'>L'on peut remarquer le travail sur les thèmes principaux (orchestration, variation, motifs ...) afin de coller au plus près de l'histoire.</span>"
+      ]
+    },
+    {
+      "levelId": 4,
+      "sequenceId": 1,
+      "sessionId": 2,
+      "activityId": 6123,
+      "type": "annex",
+      "file": [
+        {
+          "name": "Paul Dukas",
+          "type": "wiki",
+          "url": "https://fr.wikipedia.org/wiki/Paul_Dukas"
+        },
+        {
+          "name": "L'apprenti sorcier, J.W. von Goethe",
+          "type": "wiki",
+          "url": "https://fr.wikipedia.org/wiki/L%27Apprenti_sorcier_(poème)"
+        },
+        {
+          "name": "L'apprenti sorcier (Fantasia), W. Disney",
+          "type": "yt",
+          "url": "https://www.youtube.com/watch?v=snB8u_G3jVI"
+        }
+      ]
+    },
+    {
+      "levelId": 4,
+      "sequenceId": 1,
+      "sessionId": 3,
+      "activityId": 6131,
+      "type": "project",
+      "file": {
+        "name": "Hijo de la luna, Mecano",
+        "url": "https://www.youtube.com/watch?v=LdujgYYacTE"
+      },
+      "score": "chant_41.pdf",
+      "comment": [
+        "Révision du refrain et des 1er et 2ème couplets.",
+        "Travail spécifique sur le refrain (les aigus).",
+        "travail spécifique sur l'articulation et la compréhension des paroles"
+      ]
+    },
+    {
+      "levelId": 4,
+      "sequenceId": 1,
+      "sessionId": 4,
+      "activityId": 6141,
+      "type": "project",
+      "file": {
+        "name": "Hijo de la luna, Mecano",
+        "url": "https://www.youtube.com/watch?v=LdujgYYacTE"
+      },
+      "score": "chant_41.pdf",
+      "comment": [
+        "Révision du refrain et des 1er et 2ème couplets.",
+        "Apprentisage des autres couplets",
+        "Travail spécifique sur le refrain (les aigus).",
+        "travail spécifique sur l'articulation et la compréhension des paroles"
+      ]
+    },
+    {
+      "levelId": 4,
+      "sequenceId": 1,
+      "sessionId": 5,
+      "activityId": 6151,
+      "type": "project",
+      "file": {
+        "name": "Hijo de la luna, Mecano",
+        "url": "https://www.youtube.com/watch?v=LdujgYYacTE"
+      },
+      "score": "chant_41.pdf",
+      "comment": [
+        "Révision complète du chant.",
+        "Travail spécifique sur les choix d'interprétations (affinage des nuances)."
+      ]
+    },
+    {
+      "levelId": 4,
+      "sequenceId": 1,
+      "sessionId": 6,
+      "activityId": 6161,
+      "type": "project",
+      "file": {
+        "name": "Hijo de la luna, Mecano",
+        "url": "https://www.youtube.com/watch?v=LdujgYYacTE"
+      },
+      "score": "chant_41.pdf",
+      "comment": [
+        "Révision complète du chant.",
+        "Travail spécifique sur les choix d'interprétations (affinage des nuances)."
+      ]
+    },
+    {
+      "levelId": 4,
+      "sequenceId": 1,
+      "sessionId": 7,
+      "activityId": 6171,
+      "type": "project",
+      "file": {
+        "name": "Hijo de la luna, Mecano",
+        "url": "https://www.youtube.com/watch?v=LdujgYYacTE"
+      },
+      "score": "chant_41.pdf",
+      "comment": ["Révision complète du chant.", "Evaluation."]
     }
   ]
 }

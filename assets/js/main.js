@@ -4,15 +4,7 @@
 
 const jsonData = {};
 
-// fetch("../assets/json/folder2024.json")
-//   .then((req) => req.json())
-//   .then((res) =>
-//     Object.entries(res).forEach(
-//       (element) => (jsonData[element[0]] = element[1])
-//     )
-//   );
-
-fetch("../assets/json/folder2024.min.json")
+fetch("../assets/json/folder2024.json")
   .then((req) => req.json())
   .then((res) =>
     Object.entries(res).forEach(

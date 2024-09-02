@@ -14,7 +14,7 @@
 
 - Utilisation de factory pour générer les activités suivant leur type
 
-- Ajout de navigation d'une session à un autre dans les séquences
+- Ajout de navigation d'une session à une autre dans les séquences
 
 - Œuvre ou Œuvres selon nombre
 
@@ -32,7 +32,7 @@
 
 - Oui c'est joli l'effet de fieldset mais un fieldset est pour un formulaire donc si on veut le même effet on le code en CSS (d'autant plus facile que le fond est uni, s'il y avait eu une image de fond j'aurais fait différemment)
 
-- <cite> enlevés également et même visuel codé en CSS car ça n'était pas des citations
+- Bamises cite enlevées également et même visuel codé en CSS car ça n'était pas des citations
 
 ## Screenshots
 
