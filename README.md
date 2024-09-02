@@ -1,5 +1,7 @@
 # VERSION SITE MUSIQUE AVEC FACTORY PATTERN
 
+## Refonte à ma manière du site
+
 ## Refonte du json
 
 - Plus besoin des settings, on déduit le nombre de séquences et sessions d'après ce qui est entré dans le json (en bouclant sur les données du json)
