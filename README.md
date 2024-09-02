@@ -6,7 +6,7 @@
 
 - Array de séquences: chaque séquence est reliée à un level via sa levelId et possède une sequenceId et une sequenceFullId (sequenceFullId pour repérage)
 
-- Array d'activités: chaque séquence est reliée à une séquence via sa levelId et sa sequenceId et possède une sessionId et une activityId (activityId pour repérage)
+- Array d'activités: chaque séquence est reliée à une séquence via sa levelId et sa sequenceId et possède une sessionId et une activityId (activityId initialement juste pour repérage mais maintenant ajout d'un tri, les activités peuvent être rentrées dans le json dans n'importe quel ordre et seront affichées dans l'ordre de leur activtyId)
 
 ## Changements js
 
@@ -32,7 +32,7 @@
 
 - Oui c'est joli l'effet de fieldset mais un fieldset est pour un formulaire donc si on veut le même effet on le code en CSS (d'autant plus facile que le fond est uni, s'il y avait eu une image de fond j'aurais fait différemment)
 
-- Bamises cite enlevées également et même visuel codé en CSS car ça n'était pas des citations
+- Balises cite enlevées également et même visuel codé en CSS car ça n'était pas des citations
 
 ## Screenshots
 

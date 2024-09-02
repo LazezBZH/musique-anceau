@@ -23,7 +23,7 @@
       "levelId": "nombre = le niveau 6/5/4/3",
       "sequenceId": "nombre = le numéro de la séquence",
       "sessionId": "nombre = le numéro de la session",
-      "activityId": "levelId  sequenceId sessionId n°activité dans la session /juste pour repérage",
+      "activityId": "levelId  sequenceId sessionId n°activité dans la session /initialement juste pour repérage mais maintenant ajout d'un tri, les activités peuvent être rentrées dans le json dans n'importe quel ordre et seront affichées dans l'ordre de leur activtyId",
       "type": "project/opus/corpus/activity/note/annex/vocable",
       "le reste": "la suite reste comme le json d'origine"
     }

@@ -5,6 +5,9 @@ class ArticleList {
     this.all = [];
   }
   add(article) {
+    this.all = this.all.sort((a, b) => {
+      return a.activityId - b.activityId;
+    });
     this.all.push(article);
   }
 

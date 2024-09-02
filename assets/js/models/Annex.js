@@ -4,6 +4,8 @@ class Annex {
   constructor(data) {
     this.levelId = data.levelId;
     this.sequenceId = data.sequenceId;
+    this.sessionId = data.sessionId;
+    this.activityId = data.activityId;
     this.file = data.file;
   }
   render() {
